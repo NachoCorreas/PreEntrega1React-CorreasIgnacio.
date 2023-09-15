@@ -4,10 +4,11 @@ export default function () {
   return (
     <div className='lista'>
       
-            <button>inicio</button>
-          
+            <button>Zapatillas</button>
+            <button>Conjuntos</button>
+            <button>Accesorios</button>
      
-            <button>compra</button>
+           
      
     
  
