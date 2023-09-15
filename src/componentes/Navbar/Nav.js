@@ -4,7 +4,7 @@ import Lista from '../ListaNav/Lista'
 export default function Nav() {
   return (
     <div className='navbar'>
-        <Lista/>
+      
     </div>
   )
 }
