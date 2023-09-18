@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style.css"
-export default function () {
+export default function Lista() {
   return (
     <div className='lista'>
       
