@@ -18,22 +18,26 @@ class Lista extends Component {
     const { ImagenActual } = this.state;
 
     return (
-      <div className="lista">
+   
+      <div className="containerLista" >
+        <div className="lista">
         <button  onClick={() => this.ClickNav('zapatillas')}>Zapatillas</button>
         <button onClick={() => this.ClickNav('conjuntos')}>Conjuntos</button>
         <button onClick={() => this.ClickNav('accesorios')}>Accesorios</button>
-
-        <div>
+        </div>
+        <div >
           {ImagenActual && (
-            <img
+            <img className="img"
             src={require(`./img/${ImagenActual}.png`)}
            
               alt={ImagenActual}
-              style={{ maxWidth: '100px' }}
+
             />
           )}
-        </div>
+        
       </div>
+      </div>
+     
     );
   }
 }
