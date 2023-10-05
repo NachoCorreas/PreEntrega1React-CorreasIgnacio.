@@ -7,9 +7,11 @@ import Icono from './Icono/Icono'
 export default function Nav() {
   return (
     <div className='navbar'>
-      <Titulo/>
-      <Icono/>
-      <Lista/>
+
+      <Titulo />
+      <Icono />
+      <Lista />
+
     </div>
   )
 }

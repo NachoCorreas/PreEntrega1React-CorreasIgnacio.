@@ -1,14 +1,26 @@
 .containerLista{
     display: flex;
-    flex-direction: row-reverse;
     gap: 5px;
 }
 .lista{
     display: flex;
     justify-content: right;
     gap: 10px;
-    margin-right: 10px;
-  
+    
+
+}
+.lista a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: blanchedalmond;
+    border: 5px solid black;
+    color: black;
+    border-radius: 10px;
+}
+.lista a:hover{
+    background-color: grey ;
+    color: aliceblue;
+    padding: 4px;
 }
 .img{
     width: 40px;

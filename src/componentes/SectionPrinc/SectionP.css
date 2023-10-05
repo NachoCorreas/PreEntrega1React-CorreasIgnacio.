@@ -1,0 +1,40 @@
+.section {
+   display: flex;
+   gap: 100px;
+    
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.877);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.titulo h3{
+    color: rgb(250, 244, 244);
+    padding: 8px;
+    border: 8px solid white;
+    border-radius: 10px;
+    background-color: rgba(151, 151, 155, 0.603);
+
+}
+.titulo span{
+    color: rgb(245, 237, 237);
+    padding: 6px;
+    border: 8px solid white;
+    border-radius: 5px;
+    background-color: rgba(151, 151, 155, 0.603);
+}
+.fotoPortada{
+    width: 300px;
+    height: 400px;
+    border: 3px solid white;
+    border-radius: 5px;
+}
+.Portada{
+    padding: 10px;
+}

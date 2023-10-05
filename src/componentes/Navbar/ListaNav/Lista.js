@@ -1,6 +1,7 @@
 
 import "./style.css"
 import React, { Component } from 'react';
+import { NavLink } from "react-router-dom";
 
 class Lista extends Component {
   constructor() {
@@ -21,12 +22,10 @@ class Lista extends Component {
    
       <div className="containerLista" >
         <div className="lista">
-        <button  onClick={() => this.ClickNav('zapatillas')}>Zapatillas</button>
-        <button onClick={() => this.ClickNav('conjuntos')}>Conjuntos</button>
-        <button onClick={() => this.ClickNav('accesorios')}>Accesorios</button>
-        </div>
-        <div >
-          {ImagenActual && (
+        <NavLink to="/adidas" onClick={() => this.ClickNav('zapatillas')}>Adidas</NavLink>
+        <NavLink to="/nike" onClick={() => this.ClickNav('conjuntos')}>Nike</NavLink>
+        <NavLink to="/converse" onClick={() => this.ClickNav('accesorios')}>Converse</NavLink>
+        <picture>{ImagenActual && (
             <img className="img"
             src={require(`./img/${ImagenActual}.png`)}
            
@@ -34,8 +33,9 @@ class Lista extends Component {
 
             />
           )}
+        </picture>
+        </div>
         
-      </div>
       </div>
      
     );
