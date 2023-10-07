@@ -1,11 +1,11 @@
 import React from 'react';
 import Contador from './Contador';
-
+import "./CardsZapas.css";
 export default function CardsZapas({ id, foto, nombre, precio, talle, productos }) {
   return (
-    <div>
-      <li>
-        <img src={foto} alt={nombre} />
+    <div className='cardContainer'>
+      <li className='card'>
+        <img className='imgZapas' src={foto} alt={nombre} />
         <div>
           <strong>{nombre}</strong> - ${precio}
         </div>

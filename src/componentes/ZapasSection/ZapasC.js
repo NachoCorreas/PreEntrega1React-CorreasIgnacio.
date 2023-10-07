@@ -41,14 +41,7 @@ export default function ZapasC() {
             precio: 150000,
             talle: 45
         },
-        {
-            id: 6,
-            foto: "https://tafmx.vtexassets.com/arquivos/ids/403552/A03483C-1.jpg?v=638204768216800000",
-            nombre: "LARRY BIRD JUMP",
-            precio: 150000,
-            talle: 43
-        
-        }]
+        ]
         
         
         // Resolvemos la Promise con un solo arreglo que contiene los tres arrays

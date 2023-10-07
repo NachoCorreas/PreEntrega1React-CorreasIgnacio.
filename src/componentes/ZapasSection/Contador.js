@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import "./contador.css"
 export default function Contador({ stock, initial, onAdd }) {
   const [quantity, setQuantity] = useState(initial);
 
@@ -30,7 +30,7 @@ export default function Contador({ stock, initial, onAdd }) {
       </div>
       <div>
         <button
-          className='boton'
+          className='botonCarro'
           onClick={() => onAdd(quantity)}
           disabled={!stock}
         >

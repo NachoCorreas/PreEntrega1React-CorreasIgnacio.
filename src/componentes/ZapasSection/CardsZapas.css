@@ -1,0 +1,19 @@
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 10px;
+    border: solid 2px coral;
+
+}
+.imgZapas{
+    width: 200px;
+    height: 200px;
+}

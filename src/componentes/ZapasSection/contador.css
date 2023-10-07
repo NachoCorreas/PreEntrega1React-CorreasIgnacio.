@@ -1,0 +1,23 @@
+.contador{
+    display: flex;
+    flex-direction: column;
+    
+}
+.controles{
+    display: flex;
+    gap:20px ;
+}
+.boton{
+    background-color: rgb(5, 152, 250);
+    width: 20px;
+    height: 28px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 10px;
+}
+.botonCarro{
+    background-color: rgb(5, 152, 250);
+    border-radius: 5px;
+}

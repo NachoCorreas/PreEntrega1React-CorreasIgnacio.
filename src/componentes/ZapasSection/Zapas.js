@@ -1,8 +1,6 @@
-
-
 import React, { useEffect, useState } from 'react';
 import CardsZapas from './CardsZapas';
-
+import "./zapas.css"
 
 export default function Zapas() {
   const fetchProducts = () => {
@@ -52,7 +50,7 @@ export default function Zapas() {
         
         }];
         
-        // Resolvemos la Promise con un solo arreglo que contiene los tres arrays
+        // Resolvemos la Promise con un solo arreglo que contiene el array de prod
         resolve([...zapasAdidas, ]);
       }, 500);
     });
@@ -66,7 +64,7 @@ export default function Zapas() {
   }, []);
 
   return (
-    <div>
+    <div >
       {/* Renderiza los productos si existen */}
       {productos &&
         productos.map((producto) => (
